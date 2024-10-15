@@ -1,0 +1,51 @@
+/* ipad design */
+@media screen and (max-width:1200px) and (min-width: 800px) {
+    .container{
+        width: 96%;
+    }
+}
+/* mobile design */
+@media screen and (max-width:789px) and (min-width: 250px) {
+    .container{
+        width: 96%;
+    }
+    #content .container{
+        flex-direction: column;
+        }
+        #main-content{
+            flex-basis: 100%;
+            grid-template-columns: auto;
+            gap: 10px;
+        }
+        #main-content .child-content,
+        #main-content .child-content:first-child{
+            grid-column: 1/2;
+        }
+        #main-content .child-content img,
+        #main-content .child-content:first-child img{
+            width: 100%;
+            float: none;
+            display: block;
+            margin-bottom: 15px;
+        }
+        #main-content .child-content:nth-child(3) img,
+#main-content .child-content:nth-child(4) img,
+#main-content .child-content:nth-child(5) img,
+#main-content .child-content:nth-child(6) img{
+    display: block;
+}
+        #main-content .child-content p{
+            display: block;
+        }
+        #main-sidebar{
+            flex-basis: 100%;
+            border-left: 0px solid #ddd;
+            padding-left: 0px;
+        }
+        #main-sidebar .child-sidebar{
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px;
+        
+        }
+       
+}

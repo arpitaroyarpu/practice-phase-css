@@ -1,0 +1,65 @@
+ body{
+    margin: 0;
+ }
+ 
+ /* h1,p,a,span,h3{
+    background: hotpink;
+}
+h1{
+    display: inline-block;
+}
+span{
+    display: block;
+}
+h3{
+    display: none;
+}
+a.btn{
+    background: violet;
+    color: beige;
+    padding: 10px 15px;
+    display: inline-block;
+}  */
+ div{
+    background: aqua;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    top: 50px;
+ }
+ .main{
+    position: relative;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    top: 50px;
+    left: 50px;
+ }
+ .sec{
+    background: blueviolet;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+    top: 10px;
+    position: fixed;
+ }
+ .child{
+    background: lawngreen;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -55px;
+    position: absolute;
+ }
+ .stk{
+    background: gold;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+ }
+ 

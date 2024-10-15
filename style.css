@@ -1,0 +1,55 @@
+
+/*
+h1=>selector
+color=>property
+red=>value
+*/
+body{
+    background:url(img/picture.jpeg);
+}
+*{
+    margin: 0;
+    color: whitesmoke;
+    padding: 0;
+}
+h1{
+    color: red; /*declaration*/
+    color: #000000;
+    color: #0000ff6e;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 0, 0.5); /*flatuicolor*/
+    color: #d35400;
+    font-size: 60px;
+}
+
+p{
+    color: blue;
+    font-size: 18px;
+}
+div{
+    width: 200px;
+    height:200px;
+    background-color: aqua;
+    margin-bottom: 20px;
+
+}
+div p{
+    color: black;
+}
+.text-bk{
+    color: brown;
+    text-align: right;
+    background: hotpink;
+}
+.first-div{
+    background: green;
+    margin: 0;
+}
+.first-div p{
+    color: blueviolet;
+}
+#big-div, #big-div-2, .first-div{
+    width: 400px;
+
+}
+    

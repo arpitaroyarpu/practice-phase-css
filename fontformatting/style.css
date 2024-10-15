@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1{
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+}
+h2{
+    font-family: 'Popins', sans-serif;
+    font-size: 65px;
+    font-size: 4.0625em;
+    /* font-style: oblique; forcefully italic */
+    font-weight: 100;
+    font-weight: 300;
+
+}
+h3{
+    font-size: 50px;
+    font-variant: small-caps;
+}

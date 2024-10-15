@@ -1,0 +1,157 @@
+/* common css */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family: "Anek Bangla", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+    
+#header-area{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+/* main menu style */
+#menu{
+    padding: 10px 0;
+border-bottom: 2px solid #ddd;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 0 8px
+}
+#menu ul li a{    
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: blue;
+}
+#content{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.container{
+    width: 1140px;
+    margin: 10px auto;
+   
+}
+#content .container{
+display: flex;
+justify-content: space-between;
+}
+#main-content{
+    flex-basis: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+#main-content .child-content h2{
+    font-size: 20px;
+}
+#main-content .child-content h2 a{
+    color: black;
+}
+#main-content .child-content h2:hover a{
+    color: blue;
+}
+#main-content .child-content:first-child{
+    grid-column: 1/3;
+}
+#main-content .child-content img{
+    width: 110px;
+    float: right;
+}
+#main-content .child-content p{
+    display: none;
+}
+#main-content .child-content:first-child img{
+    width: auto;
+}
+#main-content .child-content:first-child p{
+    display: block;
+}
+#main-content .child-content:nth-child(3) p,
+#main-content .child-content:nth-child(4) p,
+#main-content .child-content:nth-child(5) p,
+#main-content .child-content:nth-child(5) p{
+    display: block;
+}
+
+#main-content .child-content:nth-child(3) img,
+#main-content .child-content:nth-child(4) img,
+#main-content .child-content:nth-child(5) img,
+#main-content .child-content:nth-child(6) img{
+    display: none;
+}
+
+#main-sidebar{
+    flex-basis: 28%;
+    border-left: 1px solid #ddd;
+    padding-left: 15px;
+}
+#main-sidebar .child-sidebar{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+
+}
+#main-sidebar .child-sidebr img{
+    width: 110px;
+    float: right;
+}
+#main-sidebar .child-sidebar:last-child{
+    border-bottom: 0px solid #ddd;
+    margin-bottom: 0px;
+
+}
+#main-sidebar .child-sidebar h3{
+    font-size: 16px;
+}
+#main-sidebar .child-sidebar h3 a{
+    color: black;
+}
+#main-sidebar .child-sidebar h3:hover a{
+    color: blue;
+}
+#footer-area{
+    text-align: center;
+    padding: 15px;
+}

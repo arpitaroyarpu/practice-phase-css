@@ -1,0 +1,45 @@
+i{
+    color: beige;
+    background: #ff6347;
+    padding: 15px;
+    font-size: 14px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+
+}
+a:visited{
+    color: #ff6347;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 25px;
+}
+a:focus{
+    color: blueviolet;
+    font-size: 16px;
+    background: black;
+    padding: 10px;
+}
+a.btn {
+    text-decoration: none;
+    background: red;
+    border: 2px solid red;
+    color: beige;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+a.btn:hover{
+    background: #4e2118;
+    color: #ff6347;
+}
